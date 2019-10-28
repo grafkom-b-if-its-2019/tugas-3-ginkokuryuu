@@ -223,7 +223,7 @@
 		
 		hurufN = vertices.length / 2;
 
-		vertices = matrixScaling(vertices, 0.5);
+		vertices = matrixScaling(vertices, 0.3);
 		vertices = matrixTranslating(vertices, 0.0, -0.025, 0.0);
 
 		hurufBuffer = gl.createBuffer();
